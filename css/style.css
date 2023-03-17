@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif; */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: auto;
+  background: #091321;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+#wrapper {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  width: 1300px;
+  margin: 0% auto;
+}
+.pt-0 {
+  padding-top: 0px !important;
+}
+.flex {
+  display: flex;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+/* header starts */
+header {
+  width: 100%;
+  height: auto;
+  padding: 8px 0px;
+}
+header .navbar h1 {
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+header .navbar h1 .icon {
+  position: relative;
+  top: 3px;
+  margin-right: 5px;
+  color: #34d399;
+}
+header .navbar h1 .text label {
+  color: #34d399;
+}
+header .navbar .menu ul li a {
+  display: inline-block;
+  padding: 8px 15px;
+}
+header .navbar .menu ul li a.login {
+  background-color: #34d399;
+  color: #091321;
+  font-weight: 500;
+  padding: 8px 25px;
+  border-radius: 8px;
+  border: 1px solid #34d399;
+}
+header .navbar .menu ul li a.login:hover {
+  background-color: #091321;
+  color: #34d399;
+  border: 1px solid #34d399;
+}
+/* header ends */
+
+/* banner start */
+.banner {
+  width: 100%;
+  height: auto;
+}
+.banner .image {
+  width: 100%;
+}
+.banner .image img {
+  width: 100%;
+}
+/* banner end */
+
+/* list-items starts */
+.list-items {
+  width: 100%;
+  height: auto;
+  padding: 40px 0px;
+}
+.heading {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.card {
+  width: 150px;
+  height: 205px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.2);
+}
+.card img {
+  width: 100%;
+  height: 100%;
+}
+/* list-items ends */
